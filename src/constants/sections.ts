@@ -1,0 +1,1 @@
+export const Sections = ["Home", "Profile", "Contact"];
