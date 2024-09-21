@@ -5,7 +5,7 @@ export const PROJECTS: IProjects[] = [
         id: 1,
         name:'1mentor',
         description: '1Mentor es una plataforma de inteligencia artificial que permite a los estudiantes y a la educación superior entender cómo está evolucionando el mercado laboral y cómo prepararse para el trabajo del futuro.',
-        image: 'img/1mentor.png',
+        image: 'img/1mentor.jpg',
         tags: [
             TAGS_ENUM.REACT, 
             TAGS_ENUM.NODE, 
@@ -35,7 +35,7 @@ export const PROJECTS: IProjects[] = [
         id: 3,
         name:'Kriptos',
         description: 'Kriptos es una startup de ciberseguridad que clasifica automáticamente documentos confidenciales para grandes empresas, con el objetivo de evitar la fuga de datos.',
-        image: 'img/kriptos.png',
+        image: 'img/kriptos.jpg',
         tags: [
             TAGS_ENUM.NEXT,
             TAGS_ENUM.TAILWIND,
@@ -49,7 +49,7 @@ export const PROJECTS: IProjects[] = [
         id: 4,
         name:'Balance',
         description:'Balance es una plataforma dedicada al cuidado de la salud mental. Permite realizar un tracking del estado de animo del usuario, lo que usualmente se comoce como journaling y poder analizar los cambios de humor de los usuarios.',
-        image: 'img/balance.webp',
+        image: 'img/balance.jpg',
         tags:[
             TAGS_ENUM.TYPESCRIPT,
             TAGS_ENUM.VITE,

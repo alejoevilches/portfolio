@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { NavigationSection } from "@/components/NavigationSection/NavigationSection";
+import ContactInviteComponent from "@/components/generics/ContactInviteComponent/ContactInviteComponent";
+import FooterComponent from "@/components/generics/FooterComponent/FooterComponent";
 
 export const metadata: Metadata = {
   title: "Alejo Vilches | Portfolio",
@@ -17,6 +19,8 @@ export default function RootLayout({
       <body>
         <NavigationSection />
         {children}
+        <ContactInviteComponent />
+        <FooterComponent />
       </body>
     </html>
   );
