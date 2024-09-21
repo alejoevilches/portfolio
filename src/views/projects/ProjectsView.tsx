@@ -6,11 +6,15 @@ export default function ProjectsView() {
     return (
         <div>
             <TitleComponent title="A software developer inspired by the fear of being average" />
-            <section className="px-4 gap-4 mt-14">
-                {PROJECTS.map(project => <ProjectCard 
-                project={project}
-                key={project.id} />)}
-            </section>
+            <div className="flex flex-wrap justify-center w-full max-w-screen-xl p-4">
+                <div className="flex flex-wrap justify-center w-full"> 
+                    {PROJECTS.map(project => (
+                        <div className="w-full max-w-[500px] sm:w-1/2 lg:w-1/3 p-4" key={project.id}>
+                            <ProjectCard project={project} />
+                        </div>
+                    ))}
+                </div>
+            </div>
         </div>
     );
 }
