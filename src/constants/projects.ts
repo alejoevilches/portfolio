@@ -3,8 +3,8 @@ import { IProjects, TAGS_ENUM } from "@/types/projectTypes";
 export const PROJECTS: IProjects[] = [
     {
         id: 1,
-        name:'1mentor',
-        description: '1Mentor es una plataforma de inteligencia artificial que permite a los estudiantes y a la educación superior entender cómo está evolucionando el mercado laboral y cómo prepararse para el trabajo del futuro.',
+        name:'1Mentor',
+        description: '1Mentor es una plataforma de inteligencia artificial que permite a los estudiantes y a la educación superior entender cómo está evolucionando el mercado laboral.',
         image: 'img/1mentor.jpg',
         tags: [
             TAGS_ENUM.REACT, 
@@ -48,7 +48,7 @@ export const PROJECTS: IProjects[] = [
     {
         id: 4,
         name:'Balance',
-        description:'Balance es una plataforma dedicada al cuidado de la salud mental. Permite realizar un tracking del estado de animo del usuario, lo que usualmente se comoce como journaling y poder analizar los cambios de humor de los usuarios.',
+        description:'Balance es una plataforma dedicada al cuidado de la salud mental. Permite realizar un tracking del estado de animo del usuario, lo que usualmente se comoce como journaling.',
         image: 'img/balance.jpg',
         tags:[
             TAGS_ENUM.TYPESCRIPT,
