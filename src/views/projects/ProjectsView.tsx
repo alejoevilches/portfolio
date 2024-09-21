@@ -6,9 +6,9 @@ export default function ProjectsView() {
     return (
         <div>
             <TitleComponent title="A software developer inspired by the fear of being average" />
-            <section className="px-4 gap-4">
+            <section className="px-4 gap-4 mt-14">
                 {PROJECTS.map(project => <ProjectCard 
-                {...project}
+                project={project}
                 key={project.id} />)}
             </section>
         </div>
