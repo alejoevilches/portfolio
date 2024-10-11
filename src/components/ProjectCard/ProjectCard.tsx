@@ -16,7 +16,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
             transition-opacity duration-300 hover:opacity-100">
                 <h2 className="text-2xl font-semibold">{project.name}</h2>
                 <p className="text-sm">{project.description}</p>
-                <div className="flex flex-row flex-wrap">
+                <div data-testid="tags" className="flex flex-row flex-wrap">
                     {project.tags.map((tag, index) => (
                         <SkillChip key={index} skill={tag} />
                     ))}
