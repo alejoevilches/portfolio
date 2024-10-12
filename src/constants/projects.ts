@@ -11,7 +11,7 @@ export const PROJECTS: IProjects[] = [
             TAGS_ENUM.NODE, 
             TAGS_ENUM.POSTGRESQL, 
             TAGS_ENUM.GRAPHQL, 
-            TAGS_ENUM.APOLLO_CLIENT,
+            TAGS_ENUM.APOLLO,
             TAGS_ENUM.TYPESCRIPT,
             TAGS_ENUM.MATERIAL_UI,
             TAGS_ENUM.JEST
