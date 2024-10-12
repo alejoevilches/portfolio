@@ -5,12 +5,15 @@ import { TitleComponent } from "@/components/generics/TitleComponent/TitleCompon
 
 export default function ContactView(){
     return (
-        <div className="pt-20 fadeout">
+        <div className="pt-32 fadeout">
             <TitleComponent title="Contact me" />
             <section className="flex flex-row gap-4 justify-center">
-                <LinkedInIcon style={{ fill: '#9ca3af' }}/>
-                <MailIcon style={{ fill: '#9ca3af' }}/>
-                <DiscordIcon style={{ fill: '#9ca3af' }}/>
+                <a href="https://www.linkedin.com/in/alejo-ezequiel-vilches/" target="_blank" rel="noreferrer">
+                    <LinkedInIcon style={{ fill: '#9ca3af' }}/>
+                </a>
+                <a href="mailto:alejoevilches@gmail.com">
+                    <MailIcon style={{ fill: '#9ca3af' }}/>
+                </a>
             </section>
         </div>
     )
