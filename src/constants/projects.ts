@@ -4,7 +4,7 @@ export const PROJECTS: IProjects[] = [
     {
         id: 1,
         name:'1Mentor',
-        description: '1Mentor es una plataforma de inteligencia artificial que permite a los estudiantes y a la educación superior entender cómo está evolucionando el mercado laboral.',
+        description: '1Mentor is an artificial intelligence platform that enables students and higher education institutions to understand how the labor market is evolving.',
         image: 'img/1mentor.jpg',
         tags: [
             TAGS_ENUM.REACT, 
@@ -21,7 +21,7 @@ export const PROJECTS: IProjects[] = [
     {
         id: 2,
         name:'Talamo',
-        description: 'Talamo es una plataforma B2B de análisis de datos y financiamiento inteligente. Talamo potencia el FP&A a través de inteligencia artificial, y ofrece productos de financiación alineados a la necesidad de caja proyectada de las compañías.',
+        description: "Talamo is a B2B platform for data analysis and smart financing. Talamo enhances FP&A through artificial intelligence and offers financing products aligned with companies' projected cash needs.",
         image: 'img/talamo.jpeg',
         tags: [
             TAGS_ENUM.NEXT,
@@ -34,7 +34,7 @@ export const PROJECTS: IProjects[] = [
     {
         id: 3,
         name:'Kriptos',
-        description: 'Kriptos es una startup de ciberseguridad que clasifica automáticamente documentos confidenciales para grandes empresas, con el objetivo de evitar la fuga de datos.',
+        description: 'Kriptos is a cybersecurity startup that automatically classifies confidential documents for large companies, aiming to prevent data leaks.',
         image: 'img/kriptos.jpg',
         tags: [
             TAGS_ENUM.NEXT,
@@ -48,7 +48,7 @@ export const PROJECTS: IProjects[] = [
     {
         id: 4,
         name:'Balance',
-        description:'Balance es una plataforma dedicada al cuidado de la salud mental. Permite realizar un tracking del estado de animo del usuario, lo que usualmente se comoce como journaling.',
+        description:'Balance is a platform dedicated to mental health care. It allows users to track their mood, a practice commonly known as journaling.',
         image: 'img/balance.jpg',
         tags:[
             TAGS_ENUM.TYPESCRIPT,
