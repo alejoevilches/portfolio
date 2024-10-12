@@ -11,9 +11,10 @@ export default function ProfileView(){
         <section className="flex flex-col fadeout">
             <>
                 <TitleComponent title="Hello! I'm Alejo Vilches 👋🏻"/>
-                <Image src={'/img/alejo.webp'} width={300} height={300} alt={'Alejo Vilches'} className="rounded-full mx-auto" />
             </>
-            <>
+            <div className="flex flex-col fadeout-delayed">
+                <Image src={'/img/alejo.webp'} width={300} height={300} alt={'Alejo Vilches'} className="rounded-full mx-auto" />
+                <>
                 <ProfileSubtitleChip subtitle="About me" />
                 <ProfileText>
                     I&apos;m a software developer based in Buenos Aires, Argentina. 
@@ -79,6 +80,7 @@ export default function ProfileView(){
                     })}
                 </ul>
             </>
+            </div>
         </section>
     )
 }
