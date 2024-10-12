@@ -14,6 +14,6 @@ describe('NavigationChipTests', ()=>{
 
     it('renders the navigation chip with the correct number of sections', () => {
         const { getAllByRole } = render(<NavigationChip />);
-        expect(getAllByRole('paragraph')).toHaveLength(Sections.length);
+        expect(getAllByRole('link')).toHaveLength(Sections.length);
       });
 })
