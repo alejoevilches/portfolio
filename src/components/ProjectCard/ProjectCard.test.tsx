@@ -19,7 +19,4 @@ describe('ProjectCard', () => {
       const tagsContainer= getByTestId('tags');
       expect(tagsContainer.children).toHaveLength(project.tags.length);
     })
-
-    const panacticProject = 'Panactic';
-
   });
