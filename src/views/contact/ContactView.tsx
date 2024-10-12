@@ -5,7 +5,7 @@ import { TitleComponent } from "@/components/generics/TitleComponent/TitleCompon
 
 export default function ContactView(){
     return (
-        <div className="pt-14">
+        <div className="pt-14 fadeout">
             <TitleComponent title="Contact me" />
             <section className="flex flex-row gap-4 justify-center">
                 <LinkedInIcon style={{ fill: '#9ca3af' }}/>

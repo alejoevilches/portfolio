@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@keyframes fadeout {
+    0% {
+        transform: translateY(500px);
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.fadeout {
+    animation: fadeout 1s ease-in-out;
+}
+
+.fadeout-delayed {
+    animation: fadeout 1.2s ease-in-out;
+}

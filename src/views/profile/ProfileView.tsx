@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function ProfileView(){
     return (
-        <section className="flex flex-col">
+        <section className="flex flex-col fadeout">
             <>
                 <TitleComponent title="Hello! I'm Alejo Vilches 👋🏻"/>
                 <Image src={'/img/alejo.webp'} width={300} height={300} alt={'Alejo Vilches'} className="rounded-full mx-auto" />
