@@ -11,7 +11,7 @@ export function NavigationChip(){
                 <Link 
                 key={section.name} 
                 href={section.href}
-                className={`flex items-center justify-center transition-colors duration-300 ease-in-out px-2 py-2 rounded-full ${pathname === section.href ? 'bg-gray-400' : 'hover:bg-gray-300'}`}>
+                className={`flex items-center justify-center transition-colors duration-300 ease-in-out px-2 py-2 rounded-full ${pathname === section.href ? 'bg-gray-100' : 'hover:bg-gray-300'}`}>
                     {section.name}
                 </Link>
             )}
