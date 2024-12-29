@@ -6,7 +6,7 @@ export default function Navbar(){
     const pathname=usePathname();
     return (
         <nav className="my-10">
-            <ul className="flex justify-center items-center mx-auto gap-6 border-2 w-max my-3 py-1 px-10 rounded-full bg-[#ededed]">
+            <ul className="flex justify-center items-center mx-auto gap-3 border-2 w-max my-3 py-1 px-10 rounded-full bg-[#ededed]">
                 {TABS.map((tab)=>{
                     return (
                         <li 

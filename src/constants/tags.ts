@@ -9,4 +9,6 @@ export enum TAGS {
     JEST='Jest',
     MONGO='MongoDB',
     TAILWIND='Tailwind',
+    NEXT='NextJS',
+    VITE='Vite'
 }
