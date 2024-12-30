@@ -5,6 +5,6 @@ interface IStackTitleProps {
 export default function StackTitle(props: IStackTitleProps){
     const {title}=props;
     return (
-        <h3 className="text-2xl pt-5 pb-2 pl-4 text-gray-400">{title}</h3>
+        <h3 className="text-2xl pt-5 pb-2 pl-4 text-gray-400 md:text-3xl">{title}</h3>
     )
 }
