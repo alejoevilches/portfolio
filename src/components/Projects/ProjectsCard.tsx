@@ -9,7 +9,7 @@ export default function ProjectsCard({project}:IProjectsCardProps){
     const {title, description, tags, image}=project
     return (
         <article 
-            className="relative text-white flex flex-col justify-end h-80 mx-4 bg-gray-500 bg-cover rounded-2xl pb-2 group"
+            className="relative text-white flex items-center flex-col mx-4 justify-end h-80 bg-gray-500 bg-cover rounded-2xl pb-2 group max-w-lg lg:max-w-2xl"
             style={{ backgroundImage: `url(${image})` }}
         >
             <div className="opacity-0 group-hover:opacity-100 transition-opacity ease-linear duration-150">
