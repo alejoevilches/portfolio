@@ -28,14 +28,14 @@ export const PROJECTS: IProjects[]=[
         title: 'Kriptos',
         description: 'Tinkin client. Kriptos is a cybersecurity startup that automatically classifies confidential documents for large companies, aiming to prevent data leaks.',
         tags: [TAGS.NEXT, TAGS.TAILWIND, TAGS.TYPESCRIPT, TAGS.MONGO, TAGS.JEST],
-        link: 'https://talamoapp.com/',
+        link: 'https://www.kriptos.io/es',
         image: 'images/kriptos.webp'
     },
     {
         title: 'Balance',
         description: 'Balance is a platform dedicated to mental health care. It allows users to track their mood, a practice commonly known as journaling.',
         tags: [TAGS.VITE, TAGS.TYPESCRIPT, TAGS.TAILWIND, TAGS.REACT],
-        link: 'https://talamoapp.com/',
+        link: 'https://balance-theapp.vercel.app/',
         image: 'images/balance.webp'
     },
 ]
