@@ -11,11 +11,11 @@ import ProfileSubtitleText from "@/components/About/ProfileSubtitleText";
 export default function ProfileView(){
     return (
         <section className="flex flex-col">
-            <motion.div initial={{ y: 200, opacity:0 }} animate={{y:0, opacity:1}} transition={{ type: "tween", ease: "easeOut", duration: 0.6 }}  className="text-center text-4xl py-28 lg:text-8xl">
+            <motion.div initial={{ y: 200, opacity:0 }} animate={{y:0, opacity:1}} transition={{ type: "tween", ease: "easeInOut", duration: 0.6 }}  className="text-center text-4xl py-28 lg:text-8xl">
                 <p>Hello!</p>
                 <p>I&apos;m Alejo Vilches 👋🏻</p>
             </motion.div>
-            <motion.div initial={{ y: 200, opacity:0 }} animate={{y:0, opacity:1}} transition={{ type: "tween", ease: "easeOut", duration: 0.6, delay:0.2 }}  className="flex flex-col">
+            <motion.div initial={{ y: 200, opacity:0 }} animate={{y:0, opacity:1}} transition={{ type: "tween", ease: "easeInOut", duration: 0.6, delay:0.2 }}  className="flex flex-col">
                 <Image src={'/images/alejo.webp'} width={400} height={400} alt={'Alejo Vilches'} className="rounded-full mx-auto" />
                 <>
                     <ProfileSubtitleChip subtitle="About me" />
