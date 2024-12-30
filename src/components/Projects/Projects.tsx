@@ -1,14 +1,16 @@
+'use client'
 import { PROJECTS } from "@/constants/projects";
+import { motion } from "framer-motion";
 import ProjectsCard from "./ProjectsCard";
 
 export default function Projects() {
     return (
-        <section className="flex flex-col mx-auto justify-center gap-4 md:flex-row md:flex-wrap">
+        <motion.section initial={{ y: 200, opacity:0 }} animate={{y:0, opacity:1}} transition={{ type: "tween", ease: "easeOut", duration: 0.4, delay:0.2 }} className="flex flex-col mx-auto justify-center gap-4 md:flex-row md:flex-wrap">
             {PROJECTS.map((p)=>{
                 return (
                     <ProjectsCard key={p.title} project={p} />
                 )
             })}
-        </section>
+        </motion.section>
     )
 }

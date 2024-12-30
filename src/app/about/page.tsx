@@ -1,4 +1,6 @@
+'use client'
 import ProfileSubtitleChip from "@/components/About/ProfileSubtitleChip";
+import { motion } from "framer-motion";
 import StackTitle from "@/components/About/StackTitle";
 import { FRONTEND_TAGS, BACKEND_TAGS, DATABASES_TAGS, TESTING_TAGS, VERSIONCONTROL_TAGS } from "@/constants/tags";
 import StackItem from "@/components/About/StackItem";
@@ -9,11 +11,11 @@ import ProfileSubtitleText from "@/components/About/ProfileSubtitleText";
 export default function ProfileView(){
     return (
         <section className="flex flex-col">
-            <div className="text-center text-4xl py-28 lg:text-8xl">
+            <motion.div initial={{ y: 200, opacity:0 }} animate={{y:0, opacity:1}} transition={{ type: "tween", ease: "easeOut", duration: 0.6 }}  className="text-center text-4xl py-28 lg:text-8xl">
                 <p>Hello!</p>
                 <p>I&apos;m Alejo Vilches 👋🏻</p>
-            </div>
-            <div className="flex flex-col">
+            </motion.div>
+            <motion.div initial={{ y: 200, opacity:0 }} animate={{y:0, opacity:1}} transition={{ type: "tween", ease: "easeOut", duration: 0.6, delay:0.2 }}  className="flex flex-col">
                 <Image src={'/images/alejo.webp'} width={400} height={400} alt={'Alejo Vilches'} className="rounded-full mx-auto" />
                 <>
                     <ProfileSubtitleChip subtitle="About me" />
@@ -81,7 +83,7 @@ export default function ProfileView(){
                         })}
                     </ul>
                 </>
-            </div>
+            </motion.div>
         </section>
     )
 }
