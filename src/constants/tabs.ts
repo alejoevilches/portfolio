@@ -5,6 +5,6 @@ interface ITabs{
 
 export const TABS: ITabs[]=[
     {id: '/', label:'Home'},
-    {id: 'about', label:'About'},
-    {id: 'contact', label:'Contact'},
+    {id: '/about', label:'About'},
+    {id: '/contact', label:'Contact'},
 ]
