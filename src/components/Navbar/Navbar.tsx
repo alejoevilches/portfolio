@@ -1,4 +1,3 @@
-'use client'
 import { TABS } from "@/constants/tabs";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
