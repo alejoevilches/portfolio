@@ -12,7 +12,7 @@ export default function ProjectsCard({project}:IProjectsCardProps){
             className="relative text-white flex flex-col justify-end h-80 mx-4 bg-gray-500 bg-cover rounded-2xl pb-2 group"
             style={{ backgroundImage: `url(${image})` }}
         >
-            <div className="hidden group-hover:block">
+            <div className="opacity-0 group-hover:opacity-100 transition-opacity ease-linear duration-150">
                 <h2 className="text-white text-2xl pl-2 font-semibold">{title}</h2>
                 <p className="px-2">{description}</p>
                 <div data-testid="tags" className="flex flex-row flex-wrap pl-2">
