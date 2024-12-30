@@ -13,7 +13,7 @@ export default function ProjectsCard({project}:IProjectsCardProps){
             style={{ backgroundImage: `url(${image})` }}
         >
             <div className="opacity-0 group-hover:opacity-100 transition-opacity ease-linear duration-150">
-                <a href={link} target="_blank"><h2 className="text-white text-2xl pl-2 font-semibold hover:underline">{title}</h2></a>
+                <a href={link} target="_blank" className="inline-block"><h2 className="text-white text-2xl pl-2 font-semibold hover:underline w-max">{title}</h2></a>
                 <p className="px-2">{description}</p>
                 <div data-testid="tags" className="flex flex-row flex-wrap pl-2">
                     {tags.map((tag, index) => (
