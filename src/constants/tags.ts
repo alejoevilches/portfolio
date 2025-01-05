@@ -23,6 +23,7 @@ export enum TAGS {
     HTML = 'HTML',
     CSS = 'CSS',
     JAVASCRIPT = 'JavaScript',
+    FRAMER = 'Framer Motion'
 }
 
 export const FRONTEND_TAGS: TAGS[] = [
@@ -34,7 +35,8 @@ export const FRONTEND_TAGS: TAGS[] = [
     TAGS.REACT,
     TAGS.NEXT,
     TAGS.MUI,
-    TAGS.STYLEDCOMPONENTS
+    TAGS.STYLEDCOMPONENTS,
+    TAGS.FRAMER
 ]
 
 export const BACKEND_TAGS: TAGS[] = [
