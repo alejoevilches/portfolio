@@ -20,7 +20,6 @@ export default function ProfileView(){
                 <>
                     <ProfileSubtitleChip subtitle="About me" />
                     <ProfileSubtitleText>
-                        I&apos;m a software developer based in Buenos Aires, Argentina. 
                         I’m a software developer based in Buenos Aires, Argentina, with a passion for crafting digital solutions that address global challenges and improve lives.
                     </ProfileSubtitleText>
                 </>
